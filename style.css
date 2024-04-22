@@ -1,0 +1,136 @@
+header {
+	background: linear-gradient(90deg, coral, lightcoral);
+}
+nav {
+	background: linear-gradient(90deg, khaki, lightgrey);
+}
+article {
+	background: linear-gradient(90deg, lightcoral, whitesmoke);
+}
+section{
+	border: 5px dotted gold;
+	margin-bottom: 10px;
+}
+nav > ol {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+nav > ol > li {
+	border: 2px dotted darkblue;
+	width: 200px;
+}
+
+header,
+nav,
+article,
+section,
+img {
+	border-radius: 20px;
+	padding: 10px;
+}
+h1 {
+	box-shadow: 5px 5px 5px 3px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: skyblue;
+	text-decoration-thickness: 5px;
+	text-decoration-style: dotted;
+	text-underline-offset: 3px;
+}
+h2 {
+	text-align: center;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+}
+section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 600px;
+	height: 600px;
+}
+h3 {
+	text-decoration: underline;
+	text-decoration-color: blue;
+	text-decoration-thickness: 5px;
+	text-decoration-style: dotted;
+	text-underline-offset: 3px;
+}
+h2 {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	box-shadow: 3px 3px 5px 3px skyblue;
+}
+.t1 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t2 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t3 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t4 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t5 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t6 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t7 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t8 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t9 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+.t10 {
+	line-height: 1.6;
+	word-break: keep-all;
+}
+p {
+	width: 450px;
+	height: 300px;
+}
+.me {
+	background-color:skyblue;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	padding: 10px;
+}
+.design {
+	position: absolute;
+	left: 600px;
+	top: 150px;
+	background-color:lightcoral;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	padding: 10px;
+}
+ul {
+	padding: 10px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
