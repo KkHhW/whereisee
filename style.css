@@ -110,21 +110,21 @@ p {
 	height: 300px;
 }
 .me {
-	background-color:skyblue;
 	width: 200px;
 	height: 200px;
 	border-radius: 20px;
 	padding: 10px;
+	background: linear-gradient(90deg, skyblue, lightcoral);
 }
 .design {
 	position: absolute;
 	left: 600px;
 	top: 150px;
-	background-color:lightcoral;
 	width: 200px;
 	height: 200px;
 	border-radius: 20px;
 	padding: 10px;
+	background: linear-gradient(90deg, lightcoral, skyblue);
 }
 ul {
 	padding: 10px;
@@ -157,21 +157,21 @@ ul {
     	position: absolute;
 		left: 28px;
 		top: 430px;
-		background-color:lightcoral;
 		width: 200px;
 		height: 200px;
 		border-radius: 20px;
 		padding: 10px;
+		background: linear-gradient(90deg, lightcoral, skyblue);
 	}
 
 	.me {
 		position: absolute;
 		top: 190px;
-		background-color:skyblue;
 		width: 200px;
 		height: 200px;
 		border-radius: 20px;
 		padding: 10px;
+		background: linear-gradient(90deg, skyblue, lightcoral);
 	}
 
 	section {
@@ -181,6 +181,10 @@ ul {
 
 	h2 {
 		box-shadow: 0PX 0PX 0PX 0PX;
+	}
+
+	.BD1 {
+		background-color: darkkhaki;
 	}
 
 
