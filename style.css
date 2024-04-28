@@ -141,7 +141,7 @@ ul {
 	}
 
 	p {
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 	article {
@@ -154,18 +154,33 @@ ul {
 	}
 
     .design {
-	left: 270px;
-	top: 150px;
-	background-color:lightcoral;
-	width: 200px;
-	height: 200px;
-	border-radius: 20px;
-	padding: 10px;
+    	position: absolute;
+		left: 28px;
+		top: 430px;
+		background-color:lightcoral;
+		width: 200px;
+		height: 200px;
+		border-radius: 20px;
+		padding: 10px;
+	}
+
+	.me {
+		position: absolute;
+		top: 190px;
+		background-color:skyblue;
+		width: 200px;
+		height: 200px;
+		border-radius: 20px;
+		padding: 10px;
 	}
 
 	section {
-	width: 440px;
-	height: 600px;
+		width: 400px;
+		height: 510px;
+	}
+
+	h2 {
+		box-shadow: 0PX 0PX 0PX 0PX;
 	}
 
 
