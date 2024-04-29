@@ -148,7 +148,7 @@ ul {
 	}
 
 	p {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	article {
@@ -183,7 +183,7 @@ ul {
 
 	section {
 		width: 330px;
-		height: 610px;
+		height: 650px;
 		justify-content: center;
 		align-items: center;
 	}
