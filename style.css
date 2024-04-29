@@ -189,6 +189,7 @@ ul {
 	}
 
 	article {
+		background: linear-gradient(180deg, lightcoral, whitesmoke);
 		justify-content: center;
 		align-items: center;
 	}
