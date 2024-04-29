@@ -167,16 +167,16 @@ ul {
 	}
 
     .design {
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 		border-radius: 20px;
 		padding: 10px;
 		background: linear-gradient(90deg, lightcoral, skyblue);
 	}
 
 	.me {
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 		border-radius: 20px;
 		padding: 10px;
 		background: linear-gradient(90deg, skyblue, lightcoral);
