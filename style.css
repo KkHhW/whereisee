@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 header {
 	background: linear-gradient(90deg, coral, lightcoral);
 }
@@ -20,6 +25,10 @@ nav > ol {
 nav > ol > li {
 	border: 2px dotted darkblue;
 	width: 200px;
+}
+
+nav {
+	text-align: center;
 }
 
 header,
@@ -123,9 +132,6 @@ p {
 	list-style-type: none;
 }
 .design {
-	position: absolute;
-	left: 600px;
-	top: 150px;
 	width: 200px;
 	height: 200px;
 	border-radius: 20px;
@@ -161,9 +167,6 @@ ul {
 	}
 
     .design {
-    	position: absolute;
-		left: 28px;
-		top: 430px;
 		width: 200px;
 		height: 200px;
 		border-radius: 20px;
@@ -172,8 +175,6 @@ ul {
 	}
 
 	.me {
-		position: absolute;
-		top: 190px;
 		width: 200px;
 		height: 200px;
 		border-radius: 20px;
@@ -199,7 +200,15 @@ ul {
 	}
 
 	.BD1 {
-		background-color: darkkhaki;
+		background-color: whitesmoke;
+	}
+
+	.uu {
+		display: flex;
+		flex-direction: column;
+		width: 200px;
+		justify-content: center;
+		align-items: center;
 	}
 
 
