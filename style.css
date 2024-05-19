@@ -59,7 +59,7 @@ h1 {
 	background: radial-gradient(darkgrey, whitesmoke);
 	flex-direction: row;
 	border-radius: 100px;
-	width: 60px;
+	width: 40px;
 	height: 100px;
 }
 
@@ -80,6 +80,8 @@ h1 {
 }
 
 .ff3 {
+	display: flex;
+	flex-direction: column;
 	width: 500px;
 	height: 600px;
 	border: 2px solid gold;
@@ -97,7 +99,7 @@ h1 {
 	background: linear-gradient(180deg, orangered, whitesmoke);
 	flex-direction: row;
 	border-radius: 100px;
-	width: 60px;
+	width: 40px;
 	height: 100px;
 }
 
@@ -118,6 +120,8 @@ h1 {
 }
 
 .ss3 {
+	display: flex;
+	flex-direction: column;
 	width: 500px;
 	height: 600px;
 	border: 2px solid gold;
@@ -135,7 +139,7 @@ h1 {
 	background: linear-gradient(180deg, darkkhaki, whitesmoke);
 	flex-direction: row;
 	border-radius: 100px;
-	width: 60px;
+	width: 40px;
 	height: 100px;
 }
 
@@ -156,6 +160,8 @@ h1 {
 }
 
 .tt3 {
+	display: flex;
+	flex-direction: column;
 	width: 500px;
 	height: 600px;
 	border: 2px solid gold;
